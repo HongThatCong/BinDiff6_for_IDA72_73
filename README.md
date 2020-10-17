@@ -1,6 +1,7 @@
 # BinDiff6_for_IDA72_73
 BinDiff6 và BinExport11 cho IDA 72, 72 user.
-Yêu cầu: phải có Java JDK hay JRE đã install. Lên trang của Oracle mà down, install.
+
+Yêu cầu: đã install Java JDK hay JRE. Lên trang của Oracle mà down, install.
 
 # HD cài đặt
 1. Unzip = 7zip, chép hết các dll vào IDA\plugins hay vào %IDA user dir%\plugins
@@ -9,15 +10,15 @@ Yêu cầu: phải có Java JDK hay JRE đã install. Lên trang của Oracle m�
 
 3. Chép thư mục BinDiff gồm các exe và cmd, xml file vào đâu đó. 
 
-Vd tui thường để ở thư mục IDA\tools cho các tools liên quan đến IDA.
+   Vd tui thường để ở thư mục IDA\tools cho các tools liên quan đến IDA.
 
 4. Mở bindiff.xml, chỉnh lại các đường dẫn "ui directory=" và "ida directory=" cho đúng với thư mục BinDiff chứa .jar file và thư mục IDA
 
-Nhớ là không có / hay \ cuối, bug của họ đó, hành mệt nghỉ đó.
+   Nhớ là không có / hay \ cuối path, bug của họ đó, hành mệt nghỉ đó.
 
-5. Copy file bindiff.xml đã sữa vào thư mục C:\Users\%USERNAME%\AppData\Roaming\BinDiff
+5. Copy file bindiff.xml đã modify vào thư mục C:\Users\%USERNAME%\AppData\Roaming\BinDiff
 
-Ra ngoài cmd, chạy thử bindiff_ui.cmd xem JDK và JRE install đúng không, lên được GUI không.
+Ra ngoài cmd, chạy thử bindiff_ui.cmd xem JDK và JRE install đúng không, lên được GUI không. Chỉnh các options từ GUI.
 
 Done
 
